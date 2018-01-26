@@ -1,17 +1,16 @@
 {
-  "name": "react-image-mapper",
-  "version": "0.0.4",
+  "name": "react-image-mappers",
+  "version": "1.0.4",
   "description": "imageMapper",
   "main": "lib/ImageMapper.js",
-  "author": "Coldiary",
   "license": "MIT",
-  "homepage": "https://github.com/coldiary/react-image-mapper",
+  "homepage": "https://github.com/null-none/react-image-mappers",
   "repository": {
     "type": "git",
-    "url": "https://github.com/coldiary/react-image-mapper.git"
+    "url": "https://github.com/null-none/react-image-mappers.git"
   },
   "bugs": {
-    "url": "https://github.com/coldiary/react-image-mapper/issues"
+    "url": "https://github.com/null-none/react-image-mappersissues"
   },
   "dependencies": {
     "classnames": "^2.1.2"
@@ -21,25 +20,16 @@
     "eslint": "^1.6.0",
     "eslint-plugin-react": "^3.5.1",
     "gulp": "^3.9.0",
-    "react": "^0.14.0",
+    "react": "^0.16.0",
+    "prop-types": "^15.6.0",
     "react-component-gulp-tasks": "^0.7.6",
-    "react-dom": "^0.14.0"
+    "react-dom": "^0.16.0"
   },
   "peerDependencies": {
-    "react": "^0.14.0"
+    "react": "^0.16.0"
   },
   "browserify-shim": {
     "react": "global:React"
-  },
-  "scripts": {
-    "build": "gulp clean && NODE_ENV=production gulp build",
-    "examples": "gulp dev:server",
-    "lint": "eslint ./; true",
-    "publish:site": "NODE_ENV=production gulp publish:examples",
-    "release": "NODE_ENV=production gulp release",
-    "start": "gulp dev",
-    "test": "echo \"no tests yet\" && exit 0",
-    "watch": "gulp watch:lib"
   },
   "keywords": [
     "react",
