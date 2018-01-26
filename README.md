@@ -4,9 +4,8 @@ React Component to highlight interactive zones in images
 
 ## Installation
 
-The easiest way to use react-image-mapper is to install it from NPM and include it in your own React build process (using [Browserify](http://browserify.org), [Webpack](http://webpack.github.io/), etc).
+The easiest way to use react-image-mappers is to install it from NPM and include it in your own React build process (using [Browserify](http://browserify.org), [Webpack](http://webpack.github.io/), etc).
 
-You can also use the standalone build by including `dist/react-image-mapper.js` in your page. If you use this, make sure you have already included React, and it is available as a global variable.
 
 ```
 npm install react-image-mappers --save
