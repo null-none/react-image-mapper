@@ -1,6 +1,6 @@
 {
   "name": "react-image-mappers",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "imageMapper",
   "main": "lib/ImageMapper.js",
   "license": "MIT",
@@ -19,7 +19,6 @@
     "babel-eslint": "^4.1.3",
     "eslint": "^1.6.0",
     "eslint-plugin-react": "^3.5.1",
-    "gulp": "^3.9.0",
     "react": "^0.16.0",
     "prop-types": "^15.6.0",
     "react-component-gulp-tasks": "^0.7.6",
